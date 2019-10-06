@@ -16,7 +16,6 @@ WIN_COMBINATIONS = [
   ]
   
   def won?(board)
-    #counter = 0
     WIN_COMBINATIONS.each do |win_combination|
       win_index_1 = win_combination[0]
       win_index_2 = win_combination[1]
@@ -26,13 +25,8 @@ WIN_COMBINATIONS = [
       position2 = board[win_index_2]
       position3 = board[win_index_3]
   
-  if position_1 == "X" && position_2 =="X" && position_3 == "X"
-    return win_combination
-    #   counter += 1 
-    #   if counter >= 8
-    #     break
-    #   end
-    # end
-    # return false
-  end 
-# end
+      if position_1 == "X" && position_2 =="X" && position_3 == "X"
+        return win_combination
+       end
+    end
+end
