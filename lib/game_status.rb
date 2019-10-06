@@ -25,7 +25,7 @@ WIN_COMBINATIONS = [
       position1 = board[win_index_1]
       position2 = board[win_index_2]
       position3 = board[win_index_3]
-      puts 
+      
     #   counter += 1 
     #   if counter >= 8
     #     break
@@ -33,5 +33,5 @@ WIN_COMBINATIONS = [
     # end
     # return false
   end 
-  
+end
   position1 = WIN_COMBINATIONS
