@@ -23,6 +23,8 @@ WIN_COMBINATIONS = [
       win_index_3 = win_combination[2]
       
       position1 = board[win_index_1]
+      position2 = board[win_index_2]
+      position3 = board[win_index_3]
       puts 
     #   counter += 1 
     #   if counter >= 8
