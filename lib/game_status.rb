@@ -25,7 +25,9 @@ WIN_COMBINATIONS = [
       position1 = board[win_index_1]
       position2 = board[win_index_2]
       position3 = board[win_index_3]
-      
+  
+  if position_1 == "X" && position_2 =="X" && position_3 == "X"
+    return win_combination
     #   counter += 1 
     #   if counter >= 8
     #     break
