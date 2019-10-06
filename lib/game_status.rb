@@ -29,4 +29,3 @@ WIN_COMBINATIONS = [
         return win_combination
        end
     end
-end
