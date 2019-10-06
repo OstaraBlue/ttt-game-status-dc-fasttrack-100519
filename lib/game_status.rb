@@ -17,7 +17,7 @@ WIN_COMBINATIONS = [
   
   def won?(board)
     #counter = 0
-      WIN_COMBINATIONS.each |win_combination|
+      WIN_COMBINATIONS.each do |win_combination|
       puts 
     #   counter += 1 
     #   if counter >= 8
