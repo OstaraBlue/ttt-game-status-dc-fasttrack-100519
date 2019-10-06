@@ -36,4 +36,3 @@ WIN_COMBINATIONS = [
     # return false
   end 
 end
-  position1 = WIN_COMBINATIONS
